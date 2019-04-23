@@ -1,7 +1,7 @@
 <?php
-$host='35.187.65.87';
+$host='35.242.253.184';
 $uname='root';
-$pwd='';
+$pwd='smartscale';
 $db='scale';
 $con = mysqli_connect($host,$uname,$pwd) or die("connection failed");
 mysqli_select_db($con,$db) or die("db selection failed");

@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $user="root";
-$password="";
+$password="smartscale";
 $con=mysql_connect($host,$user,$password);
 if($con) {
     echo '<h1>Connected to MySQL</h1>';
